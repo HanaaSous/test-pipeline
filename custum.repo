@@ -1,0 +1,6 @@
+[custumrepo]
+name= Custum Repository
+baseurl=file:///var/www/html/custum-repo
+gpgcheck=0
+enabled=1
+priority=1
