@@ -14,15 +14,7 @@ pipeline {
 
     stages { 
 
-       stage('Cloning our Git') { 
-
-            steps { 
-
-                git 'https://github.com/HanaaSous/test-pipeline.git'
-
-            }
-
-        } 
+       
 
         stage('Building our image') { 
 
